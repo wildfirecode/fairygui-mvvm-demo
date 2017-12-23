@@ -10,12 +10,12 @@
 		"libs/fairygui/fairygui.js"
 	],
 	"game": [
-		"bin-debug/Main.js",
 		"bin-debug/binding/registerBindable.js",
+		"bin-debug/LoadingUI.js",
 		"bin-debug/MyGLoader.js",
 		"bin-debug/binding/Binding.js",
 		"bin-debug/binding/error.js",
-		"bin-debug/LoadingUI.js",
+		"bin-debug/Main.js",
 		"bin-debug/binding/Watcher.js",
 		"bin-debug/ctrls/GameButton.js",
 		"bin-debug/ctrls/GameTextField.js",

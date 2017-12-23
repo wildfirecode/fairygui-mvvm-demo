@@ -8,14 +8,12 @@ var TestViewModel = (function () {
         this.onclick1 = {
             listener: function () {
                 _this.clickedText = 'button1 clicked.';
-                console.log(_this.clickedText);
             },
             thisobj: this
         };
         this.onclick2 = {
             listener: function () {
                 _this.clickedText = 'button2 clicked.';
-                console.log(_this.clickedText);
             },
             thisobj: this
         };
