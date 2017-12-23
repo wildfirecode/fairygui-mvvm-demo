@@ -1,0 +1,37 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "layaAir",
+            "type": "chrome",
+            "request": "launch",
+            "url": "${workspaceRoot}\\bin\\index.html",
+            "runtimeExecutable": "${execPath}",
+            "useBuildInServer": true,
+            "sourceMaps": true,
+            "webRoot": "${workspaceRoot}",
+            "port": 8080
+        },
+        {
+            "name": "Launch localhost with sourcemaps",
+            "type": "chrome",
+            "request": "launch",
+            "url": "${workspaceRoot}\\bin\\index.html",
+            "runtimeArgs": [
+                "--nolazy",
+                "--allow-file-access-frome-files",
+                " --disable-web-security"
+            ],
+            "sourceMaps": true,
+            "webRoot": "${workspaceRoot}"
+        },
+        {
+            "name": "Attach with sourcemaps",
+            "type": "chrome",
+            "request": "attach",
+            "port": 9222,
+            "sourceMaps": true,
+            "webRoot": "${workspaceRoot}"
+        }
+    ]
+}

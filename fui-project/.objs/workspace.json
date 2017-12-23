@@ -1,8 +1,4 @@
 {
-	"active_doc": [
-		"djnnrd6e",
-		"bb9x2"
-	],
 	"docs": [
 		"djnnrd6e",
 		"bb9x2",
@@ -13,5 +9,9 @@
 	"expanded_nodes": [
 		"djnnrd6e",
 		"/"
+	],
+	"active_doc": [
+		"djnnrd6e",
+		"e6uz0"
 	]
 }
