@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="400,400">
+  <displayList>
+    <component id="n0_bb9x" name="button1" src="vc2f1" xy="12,19"/>
+    <component id="n1_bb9x" name="button2" src="vc2f1" xy="13,50"/>
+    <text id="n2_bb9x" name="text1" xy="11,80" size="175,75" fontSize="12" autoSize="none" text=""/>
+  </displayList>
+</component>

@@ -3,6 +3,7 @@
   <resources>
     <component id="e6uz0" name="Test.xml" path="/" exported="true"/>
     <component id="vc2f1" name="Button1.xml" path="/"/>
+    <component id="bb9x2" name="Test2.xml" path="/" exported="true"/>
   </resources>
-  <publish name="demo" path="C:\Users\Administrator\Documents\EgretProjects\mvvm-demo\resource\assets"/>
+  <publish name="demo" path="E:\fairygui-mvvm-demo\egret-project\resource\assets"/>
 </packageDescription>

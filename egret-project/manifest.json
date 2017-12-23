@@ -10,16 +10,19 @@
 		"libs/fairygui/fairygui.js"
 	],
 	"game": [
-		"bin-debug/binding/registerBindable.js",
-		"bin-debug/LoadingUI.js",
+		"bin-debug/Main.js",
+		"bin-debug/ctrls/GameButton.js",
 		"bin-debug/MyGLoader.js",
 		"bin-debug/binding/Binding.js",
 		"bin-debug/binding/error.js",
-		"bin-debug/Main.js",
+		"bin-debug/binding/registerBindable.js",
 		"bin-debug/binding/Watcher.js",
-		"bin-debug/ctrls/GameButton.js",
+		"bin-debug/LoadingUI.js",
 		"bin-debug/ctrls/GameTextField.js",
+		"bin-debug/test2Module/Test2Client.js",
+		"bin-debug/test2Module/Test2Presenter.js",
+		"bin-debug/test2Module/Test2View.js",
 		"bin-debug/testModule/TestClient.js",
-		"bin-debug/testModule/TestComponentViewModel.js"
+		"bin-debug/testModule/TestViewModel.js"
 	]
 }

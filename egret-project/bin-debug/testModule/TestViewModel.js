@@ -21,4 +21,4 @@ var TestViewModel = (function () {
     return TestViewModel;
 }());
 __reflect(TestViewModel.prototype, "TestViewModel");
-//# sourceMappingURL=TestComponentViewModel.js.map
+//# sourceMappingURL=TestViewModel.js.map

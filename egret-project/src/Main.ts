@@ -130,7 +130,8 @@ class Main extends egret.DisplayObjectContainer {
 
     private textfield: egret.TextField;
 
-    private mainPanel: TestClient;
+    private TestClient: TestClient;
+    private Test2Client: Test2Client;
     /**
      * 创建游戏场景
      * Create a game scene
@@ -142,7 +143,8 @@ class Main extends egret.DisplayObjectContainer {
 
         this.stage.addChild(fairygui.GRoot.inst.displayObject);
         
-        this.mainPanel = new TestClient();
+        this.Test2Client = new Test2Client();
+        // this.TestClient = new TestClient();
     }
 
     /**
