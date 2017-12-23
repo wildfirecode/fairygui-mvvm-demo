@@ -3,11 +3,12 @@ var __reflect = (this && this.__reflect) || function (p, c, t) {
 };
 var TestClient = (function () {
     function TestClient() {
-        this._testComponent = fairygui.UIPackage.createObject("demo", "Test");
-        this._testComponent['vm'] = new TestViewModel();
-        this._testComponent.setSize(fairygui.GRoot.inst.width, fairygui.GRoot.inst.height);
+        this._view = fairygui.UIPackage.createObject("demo", "Test");
+        this._viewModel = new TestViewModel();
+        this._view['vm'] = this._viewModel;
+        this._view.setSize(fairygui.GRoot.inst.width, fairygui.GRoot.inst.height);
         console.log(fairygui.GRoot.inst.width);
-        fairygui.GRoot.inst.addChild(this._testComponent);
+        fairygui.GRoot.inst.addChild(this._view);
     }
     return TestClient;
 }());

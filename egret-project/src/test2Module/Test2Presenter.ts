@@ -3,7 +3,7 @@ class Test2Presenter {
     constructor(view: ITest2View) {
         this._view = view;
         this._view.setOnclick1(this.onclick1, this);
-        this._view.setOnclick1(this.onclick2, this);
+        this._view.setOnclick2(this.onclick2, this);
         this._view.text1Text = 'please click the buttons.';
     }
 
