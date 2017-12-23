@@ -18,7 +18,8 @@ var GameMain = /** @class */ (function () {
     GameMain.prototype.onLoaded = function () {
         Laya.stage.addChild(fairygui.GRoot.inst.displayObject);
         fairygui.UIPackage.addPackage("res/demo");
-        new TestClient();
+        // new TestClient();
+        new Test2Client();
     };
     return GameMain;
 }());

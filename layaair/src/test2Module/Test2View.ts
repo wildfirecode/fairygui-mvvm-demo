@@ -18,11 +18,11 @@ class Test2View extends fairygui.GComponent {
 
     /////////////////view interface declare start
     setOnclick1(listener: Function, thisObj: any) {
-        this.button1['addClickListener'](listener, thisObj);
+        this.button1.onClick(thisObj, listener);
     }
 
     setOnclick2(listener: Function, thisObj: any) {
-        this.button2['addClickListener'](listener, thisObj);
+        this.button2.onClick(thisObj, listener);
     }
 
     set text1Text(content: string) {

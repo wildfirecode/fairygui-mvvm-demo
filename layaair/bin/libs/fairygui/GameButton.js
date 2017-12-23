@@ -12,7 +12,8 @@
     const setup_beforeAdd = fairygui.GButton.prototype.setup_beforeAdd;
     fairygui.GButton.prototype.setup_beforeAdd = function (xml) {
         setup_beforeAdd.call(this, xml);
-        this['$onclickChain'] = xml.attributes.onclick.textContent;
+        if (xml.attributes.onclick)
+            this['$onclickChain'] = xml.attributes.onclick.textContent;
     };
 
     fairygui.GButton.prototype.bindClick = function (chainStr) {

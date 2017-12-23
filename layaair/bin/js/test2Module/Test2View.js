@@ -21,10 +21,10 @@ var Test2View = /** @class */ (function (_super) {
     };
     /////////////////view interface declare start
     Test2View.prototype.setOnclick1 = function (listener, thisObj) {
-        this.button1['addClickListener'](listener, thisObj);
+        this.button1.onClick(thisObj, listener);
     };
     Test2View.prototype.setOnclick2 = function (listener, thisObj) {
-        this.button2['addClickListener'](listener, thisObj);
+        this.button2.onClick(thisObj, listener);
     };
     Object.defineProperty(Test2View.prototype, "text1Text", {
         set: function (content) {

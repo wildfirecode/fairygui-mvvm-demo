@@ -23,7 +23,8 @@ class GameMain {
 
         fairygui.UIPackage.addPackage("res/demo");
 
-        new TestClient();
+        // new TestClient();
+        new Test2Client();
     }
 }
 new GameMain();
