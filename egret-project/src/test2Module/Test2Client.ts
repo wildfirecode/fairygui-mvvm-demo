@@ -4,6 +4,7 @@ class Test2Client {
 
     public constructor() {
         this._view = fairygui.UIPackage.createObject("demo", "Test2", Test2View) as any;
+        
         this._presenter = new Test2Presenter(this._view);
 
         (this._view as any).setSize(fairygui.GRoot.inst.width, fairygui.GRoot.inst.height);
