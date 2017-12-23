@@ -1,0 +1,25 @@
+{
+	"initial": [
+		"libs/modules/egret/egret.js",
+		"libs/modules/egret/egret.web.js",
+		"libs/modules/game/game.js",
+		"libs/modules/tween/tween.js",
+		"libs/modules/res/res.js",
+		"libs/modules/promise/promise.js",
+		"libs/rawinflate/rawinflate.js",
+		"libs/fairygui/fairygui.js"
+	],
+	"game": [
+		"bin-debug/Main.js",
+		"bin-debug/binding/registerBindable.js",
+		"bin-debug/MyGLoader.js",
+		"bin-debug/binding/Binding.js",
+		"bin-debug/binding/error.js",
+		"bin-debug/LoadingUI.js",
+		"bin-debug/binding/Watcher.js",
+		"bin-debug/ctrls/GameButton.js",
+		"bin-debug/ctrls/GameTextField.js",
+		"bin-debug/testModule/TestClient.js",
+		"bin-debug/testModule/TestComponentViewModel.js"
+	]
+}

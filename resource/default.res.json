@@ -1,0 +1,15 @@
+{
+	"groups": [
+		{
+			"keys": "demo",
+			"name": "preload"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/demo.fui",
+			"type": "bin",
+			"name": "demo"
+		}
+	]
+}
