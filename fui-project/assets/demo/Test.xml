@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="400,400">
+  <controller name="default" pages="0,normal,1,disabled" selected="0"/>
+  <displayList>
+    <text id="n0_e6uz" name="n0" xy="8,14" size="226,135" fontSize="18" autoSize="none" text="{vm.hello}">
+      <gearDisplay controller="default" pages="0"/>
+    </text>
+    <text id="n1_cfu1" name="n1" xy="4,39" size="197,48" fontSize="12" autoSize="none" text="this is page 'disabled'.">
+      <gearDisplay controller="default" pages="1"/>
+    </text>
+    <component id="n2_vc2f" name="n2" src="vc2f1" xy="13,161" onclick="{vm.onclick1}">
+      <Button title="button1"  />
+    </component>
+    <component id="n3_vc2f" name="n3" src="vc2f1" xy="13,192" onclick="{vm.onclick2}" >
+      <Button title="button2" />
+    </component>
+    <text id="n4_vc2f" name="n4" xy="16,224" size="226,135" fontSize="18" autoSize="none" text="{vm.clickedText}">
+      <gearDisplay controller="default" pages="0"/>
+    </text>
+  </displayList>
+</component>
