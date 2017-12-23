@@ -9,12 +9,12 @@
       <gearDisplay controller="default" pages="1"/>
     </text>
     <component id="n2_vc2f" name="n2" src="vc2f1" xy="13,161" onclick="{vm.onclick1}">
-      <Button title="button1"  />
+      <Button title="button1"/>
     </component>
-    <component id="n3_vc2f" name="n3" src="vc2f1" xy="13,192" onclick="{vm.onclick2}" >
-      <Button title="button2" />
+    <component id="n3_vc2f" name="n3" src="vc2f1" xy="13,192" onclick="{vm.onclick2}">
+      <Button title="button2"/>
     </component>
-    <text id="n4_vc2f" name="n4" xy="16,224" size="226,135" fontSize="18" autoSize="none" text="{vm.clickedText}">
+    <text id="n4_vc2f" name="n4" xy="16,224" size="226,135" fontSize="18" color="#ff0000" autoSize="none" text="{vm.clickedText}">
       <gearDisplay controller="default" pages="0"/>
     </text>
   </displayList>

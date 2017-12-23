@@ -1,4 +1,4 @@
-var MainPanel = (function () {
+var MainPanel = /** @class */ (function () {
     function MainPanel() {
         this._view = fairygui.UIPackage.createObject("Bag", "Main").asCom;
         this._view.setSize(fairygui.GRoot.inst.width, fairygui.GRoot.inst.height);

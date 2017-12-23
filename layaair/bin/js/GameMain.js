@@ -1,7 +1,7 @@
 var Handler = laya.utils.Handler;
 var Loader = laya.net.Loader;
 // 程序入口
-var GameMain = (function () {
+var GameMain = /** @class */ (function () {
     function GameMain() {
         Laya.init(1136, 640, Laya.WebGL);
         laya.utils.Stat.show(0, 0);
@@ -12,14 +12,13 @@ var GameMain = (function () {
         //设置横竖屏
         Laya.stage.screenMode = "horizontal";
         Laya.loader.load([
-            { url: "res/Bag@atlas0.png", type: Loader.IMAGE },
-            { url: "res/Bag.fui", type: Loader.BUFFER }
+            { url: "res/demo.fui", type: Loader.BUFFER }
         ], Handler.create(this, this.onLoaded));
     }
     GameMain.prototype.onLoaded = function () {
         Laya.stage.addChild(fairygui.GRoot.inst.displayObject);
-        fairygui.UIPackage.addPackage("res/Bag");
-        new MainPanel();
+        fairygui.UIPackage.addPackage("res/demo");
+        new TestClient();
     };
     return GameMain;
 }());
